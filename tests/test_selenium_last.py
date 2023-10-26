@@ -30,3 +30,7 @@ def test_hovers():
     action.move_to_element(driver.find_element(By.XPATH, "(//img[@alt='User Avatar'])[1]")).perform()
     user_name = driver.find_element(By.XPATH, "//h5[text()='name: user1']")
     assert user_name.is_displayed()
+
+
+def test_workflow():
+    assert 1 < 1 
