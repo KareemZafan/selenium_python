@@ -34,3 +34,4 @@ def test_hovers():
 
 def test_workflow():
     assert 1 < 1 
+    assert 2 - 2 == 0 
