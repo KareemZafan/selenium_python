@@ -41,5 +41,8 @@ def test_sum():
     assert 1 + 9 == 10  
     
 def test_sub():
-    assert 1 - 9 == -8  
+    assert 1 - 9 == -8
+
     
+def test_mul():
+    assert 1 * 9 == -8
