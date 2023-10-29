@@ -45,4 +45,4 @@ def test_sub():
 
     
 def test_mul():
-    assert 1 * 9 == -8
+    assert 1 * 9 == 9
